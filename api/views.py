@@ -10,4 +10,4 @@ def hello_world(request):
         message = f"Hello {name} success, You are in.!"
         return Response({'message':message}, status=200)
     elif request.method == 'GET':
-        return Response({'message':'Send a request to get a greeting!'})
+        return Response({'message':'Salamwalekum, You are getting data.......!'}, status=200)
